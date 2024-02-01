@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+    background: linear-gradient(to right, rgb(18, 18, 79), 
+    rgb(28, 28, 169));
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.container h1
+{
+    font-family: 'Saira';
+    letter-spacing: 2px;
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* line-height: 6rem; */
+}
+.container h1 span
+{
+    color: yellow;
+}
+
+.container .input-data
+{
+    display: flex;
+    background: lightblue;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px black;
+}
+.container .input-data input
+{
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    width: 30rem;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+}
+.container .input-data input::placeholder
+{
+    color: black;
+}
+.container .input-data button
+{
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    font-weight: 800;
+    border: 0;
+    outline: 0;
+    background-color: palegreen;
+    color: black;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+}
+.container .input-data button:hover
+{
+    background-color: rgb(137, 222, 137);
+}
+
+.container p
+{
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    font-family: 'Dosis';
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: yellow;
+}
